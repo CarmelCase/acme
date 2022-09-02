@@ -113,7 +113,19 @@ header a:hover{
   width: 250px;
 }
 
+/*Boxes*/
 
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
 
 
 
