@@ -20,7 +20,7 @@ ul{
 }
 
 .button_1{
-  height: 38px;
+  height: 35px;
   border: none;
   background: #e8491d;
   color: white;
@@ -123,10 +123,19 @@ header a:hover{
   float: left;
   width: 30%;
   padding: 10px;
+  text-align: center;
 }
 
 #boxes .box img{
   width: 90px;
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: #e8491d;
+  text-align: center;
 }
 
 
