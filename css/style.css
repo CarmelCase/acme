@@ -4,7 +4,7 @@ body{
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background-color: #f4f4f4;
+  background-color: white;
 }
 
 /*Global*/
@@ -22,7 +22,7 @@ ul{
 .button_1{
   height: 35px;
   border: none;
-  background: #e8491d;
+  background: #ee6c4d;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -31,12 +31,13 @@ ul{
 
 /* Header */
 header{
-  background: #35424a;
+  background: #274c77;
   color: white;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #e8491d 3px solid;
-}
+  border-bottom: #a3cef1 3px solid;
+  }
+
 header a{
   color: white;
   text-decoration: none;
@@ -55,6 +56,7 @@ header #branding{
 }
 
 header #branding h1{
+  font-family: 'Playfair Display', serif;
   margin: 0;
 }
 
@@ -64,12 +66,12 @@ header nav{
   }
 
 header .highlight, header .current a{
-  color: #e8491d;
+  color: #a3cef1;
   font-weight: bold;
 }
 
 header a:hover{
-  color:#cccccc;
+  color:#a3cef1;
   font-weight: bold;
 }
 
@@ -86,6 +88,7 @@ header a:hover{
   margin-top: 100px;
   font-size: 55px;
   margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
 }
 
 #showcase p{
@@ -94,8 +97,8 @@ header a:hover{
 
 #newsletter{
   padding: 15px;
-  color: white;
-  background: #35424a;
+  color: black;
+  background: #e7ecef;
 }
 
 #newsletter h1{
@@ -134,7 +137,7 @@ footer{
   padding: 20px;
   margin-top: 20px;
   color: white;
-  background-color: #e8491d;
+  background-color: #274c77;
   text-align: center;
 }
 
