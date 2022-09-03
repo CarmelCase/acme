@@ -75,11 +75,14 @@ header a:hover{
   font-weight: bold;
 }
 
+main{
+  background: url('../img/showcase.jpg') no-repeat 0 -400px;
+}
+
 /*Showcase*/
 
 #showcase{
   min-height: 400px;
-  background: url('../img/showcase.jpg') no-repeat 0 -400px;
   text-align: center;
   color: white;
 }
@@ -97,8 +100,8 @@ header a:hover{
 
 #newsletter{
   padding: 15px;
-  color: black;
-  background: #e7ecef;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);  
 }
 
 #newsletter h1{
