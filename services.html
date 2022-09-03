@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
-  <title>Acme Web Design | Services</title>
+  <title>Acme Web Design | About</title>
 </head>
 <body>
   <header>
@@ -27,10 +27,10 @@
       </nav>
     </div>
   </header>
-  
-  <main>
-        
-    <section id="newsletter">
+
+  <section id="front">
+
+     <section id="newsletter">
       <div class="container">
         <h1>Subscribe To Our Newsletter</h1>
         <form>
@@ -39,8 +39,66 @@
         </form>
       </div>
     </section>
+  </section>
 
-  </main>
+  <section id="main">
+    <div class="container">
+      <article id="main-col">
+        <h1 class="page-title">Services</h1>
+       <ul id="services">
+        <li>
+          <h3>
+            Web Design
+          </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, molestiae.</p>
+        </li>
+
+        <li>
+          <h3>
+          Web Hosting
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, molestiae.</p>
+      </li>
+
+        <li>
+          <h3>
+          Website Maintenance
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, molestiae.</p>
+      </li>
+
+       </ul>
+      </article>
+
+      <aside class="dark" id="sidebar">
+        <h3>Get A Quote</h3>
+
+        <form class="quote">
+          <div>
+            <!-- <label for="name">Name</label><br> -->
+            <input id="name" type="text" placeholder="Name">
+          </div>
+
+          <div>
+            <!-- <label for="email">E-mail</label><br> -->
+            <input type="email" id="email" placeholder="E-mail">
+          </div>
+
+          <div>
+            <!-- <label>Message</label><br> -->
+            <textarea placeholder="Message" cols="35" rows="10"></textarea>
+          </div>
+
+          <div>
+            <button class="button_1" type="submit">Send</button>
+          </div>
+
+        </form>
+        
+      </aside>
+    </div>
+
+  </section>
 
   <footer>
     <p>Acme Web Design, Copyright &copy; 2022</p>

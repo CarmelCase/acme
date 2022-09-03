@@ -150,8 +150,17 @@ article#main-col{
 }
 
 aside#sidebar{
+  margin-top: 60px;
   float: right;
   width: 30%;
+}
+
+ul#services li{
+  list-style: none;
+  margin-bottom: 5px;
+  background: #a3cef1;
+  padding: 20px;
+  border: #274c77 solid 2px;
 }
 
 footer{
